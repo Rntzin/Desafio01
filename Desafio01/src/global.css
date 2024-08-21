@@ -18,25 +18,21 @@
     --red-500: #e25858;
 }
 
-:focus {
-    outline: transparent;
-    box-shadow: 0 0 0 2px var(--purple-500);
-}
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body {
-    background: var(--gray-700);
-    color: var(--gray-300);
+    background: var(--gray-600);
+    color: var(--gray-100);
+    min-height: 100vh;
     -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+button {
+    cursor: pointer;
 }
